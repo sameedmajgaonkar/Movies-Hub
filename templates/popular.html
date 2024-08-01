@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popular</title>
+    <title>MoviesHub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script type="module" src="../filters/trending.js"></script>
+  </head>
+  <body>
+    <section id="navigation-section">
+      <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="logo">
+            <a class="nav-link" href="index.html"
+              ><i class="fa-solid fa-clapperboard"></i><span class="link-text">Movies Hub</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              ><i class="fa-duotone fa-solid fa-house"></i><span class="link-text">Home</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""
+              ><i class="fa-duotone fa-solid fa-magnifying-glass"></i><span class="link-text">Search</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="popular.html"
+              ><i class="fa-duotone fa-solid fa-fire-flame-curved"></i
+              ><span class="link-text">Trending</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="upcoming.html"
+              ><i class="fa-duotone fa-solid fa-clock"></i
+              ><span class="link-text">Upcoming</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="toprated.html"
+              ><i class="fa-duotone fa-solid fa-star"></i
+              ><span class="link-text">Top Rated</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <main>
+      <div class="container"></div>
+
+      <template id="template">
+        <div class="wrapper">
+          <div class="video">
+            <iframe
+              src="https://www.youtube.com/embed/Idh8n5XuYIA"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="details"></div>
+        </div>
+      </template>
+    </main>
+  </body>
+</html>
